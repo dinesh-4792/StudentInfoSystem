@@ -22,6 +22,11 @@
                   <i class="fas fa-exclamation"></i>
                 </template>
             </side-menu-items>
+            <side-menu-items path="/" pathName="Logout">
+                  <template v-slot:pathIcon>
+                    <i class="fas fa-unlock"></i>
+                  </template>
+            </side-menu-items>
         </div>
     <div class="w-5/6"><Nuxt/></div>
     </div>
